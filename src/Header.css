@@ -1,0 +1,103 @@
+.header {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  cursor: pointer;
+}
+Link .header__logo {
+  text-decoration: none;
+}
+
+.header__logo {
+  margin: 0 20px;
+
+  font-size: 26px;
+  color: #cd9042;
+  font-weight: 900;
+  font-family: sans-serif;
+  transition: all 0.5s ease-in;
+  text-decoration: none;
+  padding: 5px 0;
+}
+.header__logo:hover {
+  color: orangered;
+  text-decoration: none;
+}
+.header__search {
+  display: flex;
+  align-items: center;
+  flex: 0.8;
+
+  border-radius: 24px;
+}
+.basket {
+  color: wheat;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+}
+.basket:hover {
+  color: red;
+}
+
+.header__searchInput {
+  width: 70%;
+  height: 12px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-top-left-radius: 20px;
+  color: darkorange;
+  padding-left: 12px;
+}
+.header__searchIcon {
+  color: rgb(247, 243, 236);
+  padding: 5px;
+  height: 22px;
+  background-image: linear-gradient(60deg, #ffd452, #ec2f4b, #59c173, #c06c84);
+  border-radius: 2px;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  color: white;
+  margin-right: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.header__optionLineOne {
+  font-size: 10px;
+  color: bisque;
+  cursor: pointer;
+}
+
+.header__optionLineTwo {
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  color: whitesmoke;
+}
+.header__optionLineTwo:hover {
+  color: goldenrod;
+}
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  color: wheat;
+  /* margin-right: 12px; */
+}
+.header__basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: orangered;
+}
